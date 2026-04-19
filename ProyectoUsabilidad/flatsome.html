@@ -3,47 +3,51 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flatsome - Tienda Online (Proyecto AAA)</title>
+  <meta name="description" content="Demostración de accesibilidad WCAG 2.1 nivel AAA sobre la plantilla Flatsome.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="./imagenes/11.webp" fetchpriority="high">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
   <header class="site-header">
     <!-- Top bar -->
     <div class="top-bar">
       <div class="top-bar-inner">
-        <span>ADD ANYTHING HERE OR JUST REMOVE IT...</span>
+        <span lang="en">ADD ANYTHING HERE OR JUST REMOVE IT...</span>
         <nav aria-label="Navegación secundaria">
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Our Stores</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#" lang="en">About</a></li>
+            <li><a href="#" lang="en">Our Stores</a></li>
+            <li><a href="#" lang="en">Blog</a></li>
+            <li><a href="#" lang="en">Contact</a></li>
+            <li><a href="#" lang="en"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
             <li>
-              <a href="#">
-                <img class="icon-small" src="./imagenes/1.webp" alt="">
+              <a href="#" lang="en">
+                <img class="icon-small" src="./imagenes/1.webp" alt="" width="22" height="19" decoding="async">
                 Newsletter
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" lang="en">
                 Languages
-                <img class="icon-caret" src="./imagenes/2.webp" alt="">
+                <img class="icon-caret" src="./imagenes/2.webp" alt="" width="12" height="12" decoding="async">
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" lang="en">
                 Wishlist
-                <img class="icon-small" src="./imagenes/3.webp" alt="">
+                <img class="icon-small" src="./imagenes/3.webp" alt="" width="12" height="12" decoding="async">
               </a>
             </li>
             <li class="top-bar-social">
-              <a href="#" aria-label="Facebook"><img src="./imagenes/4.webp" alt=""></a>
-              <a href="#" aria-label="Twitter"><img src="./imagenes/5.webp" alt=""></a>
-              <a href="#" aria-label="Instagram"><img src="./imagenes/6.webp" alt=""></a>
-              <a href="#" aria-label="Email"><img src="./imagenes/1.webp" alt=""></a>
+              <a href="#"><img src="./imagenes/4.webp" alt="" width="102" height="130" decoding="async"><span class="visually-hidden">Facebook</span></a>
+              <a href="#"><img src="./imagenes/5.webp" alt="" width="24" height="24" decoding="async"><span class="visually-hidden">Twitter</span></a>
+              <a href="#"><img src="./imagenes/6.webp" alt="" width="124" height="111" decoding="async"><span class="visually-hidden">Instagram</span></a>
+              <a href="#"><img src="./imagenes/1.webp" alt="" width="22" height="19" decoding="async"><span class="visually-hidden">Email</span></a>
             </li>
           </ul>
         </nav>
@@ -52,54 +56,56 @@
 
     <!-- Main header -->
     <div class="main-header">
-      <a href="#" class="logo">
-        <img src="./imagenes/7.webp" alt="Flatsome">
+      <a href="#" class="logo" aria-label="Flatsome - Ir al inicio">
+        <img src="./imagenes/7.webp" alt="" width="40" height="40" decoding="async">
         <h1>FLATSOME</h1>
+        <span class="visually-hidden">Tienda online con moda y accesorios.</span>
       </a>
 
       <nav aria-label="Navegación principal">
         <ul class="main-menu">
           <li class="menu-search">
             <a href="#" aria-label="Buscar">
-              <img class="icon-search" src="./imagenes/8.webp" alt="">
+              <img class="icon-search" src="./imagenes/8.webp" alt="" width="512" height="512" decoding="async">
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" lang="en">
               DEMOS
-              <img class="icon-caret" src="./imagenes/9.webp" alt="">
+              <img class="icon-caret" src="./imagenes/9.webp" alt="" width="12" height="12" decoding="async">
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" lang="en">
               FEATURES
-              <img class="icon-caret" src="./imagenes/9.webp" alt="">
+              <img class="icon-caret" src="./imagenes/9.webp" alt="" width="12" height="12" decoding="async">
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" lang="en">
               SHOP
-              <img class="icon-caret" src="./imagenes/9.webp" alt="">
+              <img class="icon-caret" src="./imagenes/9.webp" alt="" width="12" height="12" decoding="async">
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" lang="en">
               PAGES
-              <img class="icon-caret" src="./imagenes/9.webp" alt="">
+              <img class="icon-caret" src="./imagenes/9.webp" alt="" width="12" height="12" decoding="async">
             </a>
           </li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">ELEMENTS</a></li>
+          <li><a href="#" lang="en">BLOG</a></li>
+          <li><a href="#" lang="en">ELEMENTS</a></li>
         </ul>
       </nav>
 
       <nav class="user-nav" aria-label="Cuenta de usuario">
         <ul>
-          <li><a href="#">LOGIN</a></li>
-          <li><a href="#">CART / $0.00</a></li>
+          <li><a href="#" lang="en">LOGIN</a></li>
+          <li><a href="#" lang="en">CART / $0.00</a></li>
           <li class="user-cart">
-            <a href="#" aria-label="Carrito de compra">
-              <img src="./imagenes/10.webp" alt="Carrito">
+            <a href="#">
+              <img src="./imagenes/10.webp" alt="" width="40" height="40" decoding="async">
+              <span class="visually-hidden">Carrito de compra</span>
             </a>
           </li>
         </ul>
@@ -107,28 +113,28 @@
     </div>
   </header>
 
-  <main>
+  <main id="contenido-principal">
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" aria-label="Promoción destacada">
       <figure>
-        <div class="hero-arrow hero-arrow-left"></div>
-        <img src="./imagenes/11.webp" alt="Gran venta - Hasta 50% de descuento">
-        <div class="hero-arrow hero-arrow-right"></div>
-        <nav class="hero-actions">
-          <a href="#">
-            <img src="./imagenes/logo.svg" alt="Demos">
+        <button type="button" class="hero-arrow hero-arrow-left" aria-label="Diapositiva anterior"></button>
+        <img src="./imagenes/11.webp" alt="Gran venta - Hasta 70% de descuento en ropa de hombre y mujer" width="1000" height="429" fetchpriority="high" decoding="async">
+        <button type="button" class="hero-arrow hero-arrow-right" aria-label="Diapositiva siguiente"></button>
+        <nav class="hero-actions" aria-label="Acciones rápidas">
+          <a href="#" lang="en">
+            <img src="./imagenes/logo.webp" alt="" width="16" height="16" decoding="async">
             <span>DEMOS</span>
           </a>
-          <a href="#" class="hero-actions-buy">
+          <a href="#" class="hero-actions-buy" lang="en">
             <span>$59</span>
             <span>BUY NOW</span>
           </a>
-          <a href="#">
-            <img src="./imagenes/52.webp" alt="Support">
+          <a href="#" lang="en">
+            <img src="./imagenes/52.webp" alt="" width="16" height="16" decoding="async">
             <span>SUPPORT</span>
           </a>
         </nav>
-        <figcaption>
+        <figcaption lang="en">
           <p>It has Finally started...</p>
           <h2>HUGE SALE</h2>
           <p>UP TO <strong>70% OFF</strong></p>
@@ -142,34 +148,45 @@
     </section>
 
     <!-- Cards -->
-    <section class="cards">
+    <section class="cards" aria-labelledby="cards-heading">
+      <h2 id="cards-heading" class="visually-hidden">Accesos destacados</h2>
       <article>
-        <a href="#">
-          <img src="./imagenes/12.webp" alt="Nuestro blog">
-          <h3>OUR BLOG</h3>
+        <a href="#" lang="en">
+          <img src="./imagenes/12.webp" alt="" width="1000" height="571" decoding="async">
+          <div class="card-overlay">
+            <h3>OUR BLOG</h3>
+            <p lang="es">Artículos y noticias de moda.</p>
+          </div>
         </a>
       </article>
       <article>
-        <a href="#">
-          <img src="./imagenes/13.webp" alt="Únete a nuestra competición">
-          <h3>JOIN OUR<br>COMPETITION</h3>
+        <a href="#" lang="en">
+          <img src="./imagenes/13.webp" alt="" width="471" height="625" decoding="async">
+          <div class="card-overlay">
+            <h3>JOIN OUR<br>COMPETITION</h3>
+            <p lang="es">Participa y gana premios exclusivos.</p>
+          </div>
         </a>
       </article>
       <article>
-        <a href="#">
-          <img src="./imagenes/14.webp" alt="Sobre nosotros">
-          <h3>ABOUT US</h3>
+        <a href="#" lang="en">
+          <img src="./imagenes/14.webp" alt="" width="1000" height="571" decoding="async">
+          <div class="card-overlay">
+            <h3>ABOUT US</h3>
+            <p lang="es">Conoce nuestra historia y equipo.</p>
+          </div>
         </a>
       </article>
     </section>
 
     <!-- Weekly products -->
     <section class="products">
-      <h2>WEEKLY FEATURED PRODUCTS</h2>
+      <h2 lang="en">WEEKLY FEATURED PRODUCTS</h2>
+      <p class="products-intro">Descubre nuestra selección semanal de productos destacados.</p>
       <ul>
         <li>
           <article>
-            <img src="./imagenes/15.webp" alt="Osaka Entry Tee Supardy 12">
+            <img src="./imagenes/15.webp" alt="Osaka Entry Tee Supardy 12" width="488" height="593" loading="lazy" decoding="async">
             <span>MEN</span>
             <h3>Osaka Entry Tee Supardy 12</h3>
             <p>$29,00</p>
@@ -177,7 +194,7 @@
         </li>
         <li>
           <article>
-            <img src="./imagenes/16.webp" alt="All Star Canvas Hi Converse">
+            <img src="./imagenes/16.webp" alt="All Star Canvas Hi Converse" width="488" height="593" loading="lazy" decoding="async">
             <span>SHOES</span>
             <h3>All Star Canvas Hi Converse</h3>
             <p>$29,00</p>
@@ -185,7 +202,7 @@
         </li>
         <li>
           <article>
-            <img src="./imagenes/17.webp" alt="Fluro Big Pullover Designers Remix">
+            <img src="./imagenes/17.webp" alt="Fluro Big Pullover Designers Remix" width="488" height="593" loading="lazy" decoding="async">
             <span>SWEATERS</span>
             <h3>Fluro Big Pullover Designers Remix</h3>
             <p>$49,00</p>
@@ -195,7 +212,7 @@
           <article>
             <span class="badge-sale">Sale!</span>
             <span class="badge-new">New</span>
-            <img src="./imagenes/18.webp" alt="Varsatile CN Tee Hilfiger Denim">
+            <img src="./imagenes/18.webp" alt="Varsatile CN Tee Hilfiger Denim" width="488" height="593" loading="lazy" decoding="async">
             <span>WOMEN</span>
             <h3>Varsatile CN Tee Hilfiger Denim</h3>
             <p><s>$19,00</s> $15,00</p>
@@ -206,11 +223,12 @@
 
     <!-- Best selling -->
     <section class="products">
-      <h2>BEST SELLING PRODUCTS</h2>
+      <h2 lang="en">BEST SELLING PRODUCTS</h2>
+      <p class="products-intro">Los artículos más vendidos por nuestra comunidad.</p>
       <ul>
         <li>
           <article>
-            <img src="./imagenes/19.webp" alt="Daisy Bag Sonia by Rykiel">
+            <img src="./imagenes/19.webp" alt="Daisy Bag Sonia by Rykiel" width="488" height="593" loading="lazy" decoding="async">
             <span>BAGS</span>
             <h3>Daisy Bag Sonia by Sonia Rykiel</h3>
             <p>$2.999,00</p>
@@ -218,7 +236,7 @@
         </li>
         <li>
           <article>
-            <img src="./imagenes/20.webp" alt="On1 Jersey UNIF">
+            <img src="./imagenes/20.webp" alt="On1 Jersey UNIF" width="488" height="593" loading="lazy" decoding="async">
             <span>SWEATERS</span>
             <h3>On1 Jersey UNIF</h3>
             <p>$39,00</p>
@@ -226,7 +244,7 @@
         </li>
         <li>
           <article>
-            <img src="./imagenes/21.webp" alt="Beyond Top NLY Trend">
+            <img src="./imagenes/21.webp" alt="Beyond Top NLY Trend" width="488" height="593" loading="lazy" decoding="async">
             <span>TOPS</span>
             <h3>Beyond Top NLY Trend</h3>
             <p>$9,90</p>
@@ -234,7 +252,7 @@
         </li>
         <li>
           <article>
-            <img src="./imagenes/22.webp" alt="Harissa O-Neck Sweat">
+            <img src="./imagenes/22.webp" alt="Harissa O-Neck Sweat" width="488" height="593" loading="lazy" decoding="async">
             <span>SWEATERS</span>
             <h3>Harissa O-Neck Sweat</h3>
             <p>$101,00</p>
@@ -245,11 +263,11 @@
 
     <!-- Categories -->
     <section class="categories">
-      <h2>BROWSE OUR CATEGORIES</h2>
+      <h2 lang="en">BROWSE OUR CATEGORIES</h2>
       <ul>
         <li>
           <a href="#">
-            <img src="./imagenes/23.webp" alt="Categoría Ropa">
+            <img src="./imagenes/23.webp" alt="Categoría Ropa" width="488" height="593" loading="lazy" decoding="async">
             <div>
               <h3>CLOTHING</h3>
               <p>12 PRODUCTS</p>
@@ -258,7 +276,7 @@
         </li>
         <li>
           <a href="#">
-            <img src="./imagenes/24.webp" alt="Categoría Mujer">
+            <img src="./imagenes/24.webp" alt="Categoría Mujer" width="488" height="593" loading="lazy" decoding="async">
             <div>
               <h3>WOMEN</h3>
               <p>18 PRODUCTS</p>
@@ -267,7 +285,7 @@
         </li>
         <li>
           <a href="#">
-            <img src="./imagenes/25.webp" alt="Categoría Reservas">
+            <img src="./imagenes/25.webp" alt="Categoría Reservas" width="488" height="593" loading="lazy" decoding="async">
             <div>
               <h3>BOOKING</h3>
               <p>6 PRODUCTS</p>
@@ -276,7 +294,7 @@
         </li>
         <li>
           <a href="#">
-            <img src="./imagenes/26.webp" alt="Categoría Hombre">
+            <img src="./imagenes/26.webp" alt="Categoría Hombre" width="488" height="593" loading="lazy" decoding="async">
             <div>
               <h3>MEN</h3>
               <p>9 PRODUCTS</p>
@@ -287,25 +305,26 @@
     </section>
 
     <!-- Features -->
-    <section class="features">
+    <section class="features" aria-labelledby="features-heading">
+      <h2 id="features-heading" class="visually-hidden">Ventajas del servicio</h2>
       <ul>
         <li>
           <article>
-            <img src="./imagenes/27.webp" alt="Envío gratuito">
+            <img src="./imagenes/27.webp" alt="Envío gratuito" width="50" height="50" loading="lazy" decoding="async">
             <h3>FREE SHIPPING ON ALL ORDERS</h3>
             <p>Get Free Shipping on all orders over $75 and free returns to our UK returns centre! Items are dispatched from the US and will arrive in 5-8 days.</p>
           </article>
         </li>
         <li>
           <article>
-            <img src="./imagenes/28.webp" alt="Soporte 24/7">
+            <img src="./imagenes/28.webp" alt="Soporte 24/7" width="50" height="50" loading="lazy" decoding="async">
             <h3>AMAZING CUSTOMER SERVICE</h3>
             <p>Get Free Shipping on all orders over $75 and free returns to our UK returns centre! Items are dispatched from the US and will arrive in 5-8 days.</p>
           </article>
         </li>
         <li>
           <article>
-            <img src="./imagenes/29.webp" alt="Sin aduanas">
+            <img src="./imagenes/29.webp" alt="Sin aduanas" width="50" height="50" loading="lazy" decoding="async">
             <h3>NO CUSTOMS OR DUTY FEES!</h3>
             <p>We pay these fees so you don't have to! The total billed at checkout is the final amount you pay, inclusive of VAT, with no additional charges at the time of delivery!</p>
           </article>
@@ -314,24 +333,27 @@
     </section>
 
     <!-- Testimonial -->
-    <section class="testimonial">
+    <section class="testimonial" aria-labelledby="testimonial-heading">
+      <h2 id="testimonial-heading" class="visually-hidden">Testimonio de cliente</h2>
       <figure>
-        <img src="./imagenes/30.webp" alt="Testimonial background">
+        <img src="./imagenes/30.webp" alt="" width="1000" height="485" loading="lazy" decoding="async">
         <figcaption>
-          <p>★★★★★</p>
-          <blockquote>PBR kogi VHS commodo, single-origin coffee selvage kale chips. Fugiat try-hard ad aesthetic, tofu master cleanse typewriter tote bag accusamus sustainable ennui hella small batch cliche.</blockquote>
-          <cite>Jenny Brooks <span>/ LinkedIn</span></cite>
+          <p aria-label="Valoración: 5 de 5 estrellas" role="img">
+            <span aria-hidden="true">★★★★★</span>
+          </p>
+          <blockquote lang="en">PBR kogi VHS commodo, single-origin coffee selvage kale chips. Fugiat try-hard ad aesthetic, tofu master cleanse typewriter tote bag accusamus sustainable ennui hella small batch cliche.</blockquote>
+          <cite>Jenny Brooks <span lang="en">/ LinkedIn</span></cite>
         </figcaption>
       </figure>
     </section>
 
     <!-- Latest news -->
     <section class="latest-news">
-      <h2>LATEST NEWS</h2>
+      <h2 lang="en">LATEST NEWS</h2>
       <div>
         <article>
           <figure>
-            <img src="./imagenes/31.webp" alt="Welcome to Flatsome">
+            <img src="./imagenes/31.webp" alt="Welcome to Flatsome" width="365" height="266" loading="lazy" decoding="async">
             <time datetime="2020-11-19">
               <span>19</span>
               <span>Nov</span>
@@ -342,7 +364,7 @@
         </article>
         <article>
           <figure>
-            <img src="./imagenes/32.webp" alt="Just another post with A Gallery">
+            <img src="./imagenes/32.webp" alt="Just another post with A Gallery" width="365" height="266" loading="lazy" decoding="async">
             <time datetime="2020-10-13">
               <span>13</span>
               <span>Oct</span>
@@ -353,7 +375,7 @@
         </article>
         <article>
           <figure>
-            <img src="./imagenes/33.webp" alt="A Simple Blog Post">
+            <img src="./imagenes/33.webp" alt="A Simple Blog Post" width="365" height="266" loading="lazy" decoding="async">
             <time datetime="2020-10-13">
               <span>13</span>
               <span>Oct</span>
@@ -364,7 +386,7 @@
         </article>
         <article>
           <figure>
-            <img src="./imagenes/34.webp" alt="A Video Blog Post">
+            <img src="./imagenes/34.webp" alt="A Video Blog Post" width="365" height="266" loading="lazy" decoding="async">
             <time datetime="2020-01-01">
               <span>01</span>
               <span>Jan</span>
@@ -377,13 +399,14 @@
     </section>
 
     <!-- Sidebar -->
-    <aside class="products-sidebar">
-      <section>
-        <h3>LATEST</h3>
+    <aside class="products-sidebar" aria-labelledby="sidebar-heading">
+      <h2 id="sidebar-heading" class="visually-hidden">Listados adicionales de productos</h2>
+      <section aria-labelledby="sidebar-latest">
+        <h3 id="sidebar-latest" lang="en">LATEST</h3>
         <ul>
           <li>
             <article>
-              <img src="./imagenes/20.webp" alt="On1 Jersey UNIF-2">
+              <img src="./imagenes/20.webp" alt="On1 Jersey UNIF-2" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">On1 Jersey UNIF-2</a>
                 <p>$39.00</p>
@@ -392,7 +415,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/15.webp" alt="Osaka Entry Tee Supardy 12">
+              <img src="./imagenes/15.webp" alt="Osaka Entry Tee Supardy 12" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">Osaka Entry Tee <br> Supardy 12</a>
                 <p>$29.00</p>
@@ -401,7 +424,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/16.webp" alt="All Star Canvas Hi Converse">
+              <img src="./imagenes/16.webp" alt="All Star Canvas Hi Converse" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">All Star Canvas Hi <br> Converse</a>
                 <p>$29.00</p>
@@ -410,7 +433,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/17.webp" alt="Fluro Big Pullover Designers Remix">
+              <img src="./imagenes/17.webp" alt="Fluro Big Pullover Designers Remix" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">Fluro Big Pullover <br> Designers Remix</a>
                 <p>$49.00</p>
@@ -420,12 +443,12 @@
         </ul>
       </section>
 
-      <section>
-        <h3>BEST SELLING</h3>
+      <section aria-labelledby="sidebar-best">
+        <h3 id="sidebar-best" lang="en">BEST SELLING</h3>
         <ul>
           <li>
             <article>
-              <img src="./imagenes/19.webp" alt="Daisy Bag Sonia by Rykiel">
+              <img src="./imagenes/19.webp" alt="Daisy Bag Sonia by Rykiel" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">Daisy Bag Sonia by <br> Sonia Rykiel</a>
                 <p>$2,999.00</p>
@@ -434,7 +457,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/20.webp" alt="On1 Jersey UNIF">
+              <img src="./imagenes/20.webp" alt="On1 Jersey UNIF" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">On1 Jersey UNIF</a>
                 <p>$39.00</p>
@@ -443,7 +466,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/21.webp" alt="Beyond Top NLY Trend">
+              <img src="./imagenes/21.webp" alt="Beyond Top NLY Trend" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">Beyond Top NLY Trend</a>
                 <p>$9.90</p>
@@ -452,7 +475,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/24.webp" alt="Harissa O-Neck Sweat">
+              <img src="./imagenes/24.webp" alt="Harissa O-Neck Sweat" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">Harissa O-Neck Sweat</a>
                 <p>$101.00</p>
@@ -462,12 +485,12 @@
         </ul>
       </section>
 
-      <section>
-        <h3>FEATURED</h3>
+      <section aria-labelledby="sidebar-featured">
+        <h3 id="sidebar-featured" lang="en">FEATURED</h3>
         <ul>
           <li>
             <article>
-              <img src="./imagenes/15.webp" alt="Osaka Entry Tee Supardy 12">
+              <img src="./imagenes/15.webp" alt="Osaka Entry Tee Supardy 12" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">Osaka Entry Tee Supardy <br> 12</a>
                 <p>$29.00</p>
@@ -476,7 +499,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/16.webp" alt="All Star Canvas Hi Converse">
+              <img src="./imagenes/16.webp" alt="All Star Canvas Hi Converse" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">All Star Canvas Hi <br> Converse</a>
                 <p>$29.00</p>
@@ -485,7 +508,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/17.webp" alt="Fluro Big Pullover Designers Remix">
+              <img src="./imagenes/17.webp" alt="Fluro Big Pullover Designers Remix" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">Fluro Big Pullover <br> Designers Remix</a>
                 <p>$49.00</p>
@@ -494,7 +517,7 @@
           </li>
           <li>
             <article>
-              <img src="./imagenes/18.webp" alt="Varanise CN Tee Hilfiger Denim">
+              <img src="./imagenes/18.webp" alt="Varanise CN Tee Hilfiger Denim" width="60" height="60" loading="lazy" decoding="async">
               <div>
                 <a href="#">Varanise CN Tee <br> Hilfiger Denim</a>
                 <p><s>$19.00</s> $15.00</p>
@@ -504,35 +527,35 @@
         </ul>
       </section>
 
-      <section>
-        <h3>TOP RATED PRODUCTS</h3>
+      <section aria-labelledby="sidebar-top">
+        <h3 id="sidebar-top" lang="en">TOP RATED PRODUCTS</h3>
         <ul>
           <li>
             <article>
-              <img src="./imagenes/35.webp" alt="Tafifa Bag, NYPD">
+              <img src="./imagenes/35.webp" alt="Tafifa Bag, NYPD" width="60" height="60" loading="lazy" decoding="async">
               <div>
-                <a href="#">Tafifa Bag, NYPD</a>
-                <p>★★★★☆</p>
+                <a href="#" lang="en">Tafifa Bag, NYPD</a>
+                <p role="img" aria-label="Valoración: 4 de 5 estrellas"><span aria-hidden="true">★★★★☆</span></p>
                 <p>$69.00</p>
               </div>
             </article>
           </li>
           <li>
             <article>
-              <img src="./imagenes/36.webp" alt="Adelia Bag, NYPD">
+              <img src="./imagenes/36.webp" alt="Adelia Bag, NYPD" width="60" height="60" loading="lazy" decoding="async">
               <div>
-                <a href="#">Adelia Bag, NYPD</a>
-                <p>★★★★☆</p>
+                <a href="#" lang="en">Adelia Bag, NYPD</a>
+                <p role="img" aria-label="Valoración: 4 de 5 estrellas"><span aria-hidden="true">★★★★☆</span></p>
                 <p>$29.00</p>
               </div>
             </article>
           </li>
           <li>
             <article>
-              <img src="./imagenes/37.webp" alt="Land Tee Jack & Jones">
+              <img src="./imagenes/37.webp" alt="Land Tee Jack & Jones" width="60" height="60" loading="lazy" decoding="async">
               <div>
-                <a href="#">Land Tee Jack &amp; Jones</a>
-                <p>★★★★☆</p>
+                <a href="#" lang="en">Land Tee Jack &amp; Jones</a>
+                <p role="img" aria-label="Valoración: 4 de 5 estrellas"><span aria-hidden="true">★★★★☆</span></p>
               </div>
             </article>
           </li>
@@ -546,19 +569,19 @@
     <section class="footer-main">
       <div>
         <div class="footer-about">
-          <h2>ABOUT US</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-          <ul>
-            <li><a href="#"><img src="./imagenes/39.webp" alt="Facebook"></a></li>
-            <li><a href="#"><img src="./imagenes/40.webp" alt="Twitter"></a></li>
-            <li><a href="#"><img src="./imagenes/41.webp" alt="Email"></a></li>
-            <li><a href="#"><img src="./imagenes/42.webp" alt="Instagram"></a></li>
-            <li><a href="#"><img src="./imagenes/43.webp" alt="Pinterest"></a></li>
+          <h2 lang="en">ABOUT US</h2>
+          <p lang="la">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <ul aria-label="Redes sociales">
+            <li><a href="#"><img src="./imagenes/39.webp" alt="" width="650" height="650" loading="lazy" decoding="async"><span class="visually-hidden">Síguenos en Facebook</span></a></li>
+            <li><a href="#"><img src="./imagenes/40.webp" alt="" width="649" height="649" loading="lazy" decoding="async"><span class="visually-hidden">Síguenos en Twitter</span></a></li>
+            <li><a href="#"><img src="./imagenes/41.webp" alt="" width="650" height="650" loading="lazy" decoding="async"><span class="visually-hidden">Escríbenos un correo</span></a></li>
+            <li><a href="#"><img src="./imagenes/42.webp" alt="" width="724" height="724" loading="lazy" decoding="async"><span class="visually-hidden">Síguenos en Instagram</span></a></li>
+            <li><a href="#"><img src="./imagenes/43.webp" alt="" width="650" height="650" loading="lazy" decoding="async"><span class="visually-hidden">Síguenos en Pinterest</span></a></li>
           </ul>
         </div>
 
         <div class="footer-news">
-          <h2>LATEST NEWS</h2>
+          <h2 lang="en">LATEST NEWS</h2>
           <ul>
             <li>
               <article>
@@ -594,80 +617,82 @@
                   <span>Jan</span>
                 </time>
                 <h3>A Video Blog Post</h3>
+                <p class="footer-news-excerpt" lang="es">Vídeo destacado del blog para completar la selección de novedades.</p>
               </article>
             </li>
           </ul>
         </div>
 
         <div class="footer-tags">
-          <h2>TAGS</h2>
-          <nav>
+          <h2 lang="en">TAGS</h2>
+          <nav aria-label="Etiquetas de productos">
             <ul>
-              <li><a href="#">bag</a></li>
-              <li><a href="#">classic</a></li>
-              <li><a href="#">Converse</a></li>
-              <li><a href="#">diesel</a></li>
-              <li><a href="#">fit</a></li>
-              <li><a href="#">green</a></li>
-              <li><a href="#">jack and jones</a></li>
-              <li><a href="#">jack and jones-2</a></li>
-              <li><a href="#">jeans</a></li>
-              <li><a href="#">Jumper</a></li>
-              <li><a href="#">leather</a></li>
-              <li><a href="#">lee</a></li>
-              <li><a href="#">levis</a></li>
-              <li><a href="#">man</a></li>
-              <li><a href="#">nypd</a></li>
-              <li><a href="#">party</a></li>
-              <li><a href="#">Pink</a></li>
-              <li><a href="#">river island</a></li>
-              <li><a href="#">rock chick</a></li>
-              <li><a href="#">run</a></li>
-              <li><a href="#">shoe</a></li>
-              <li><a href="#">stars</a></li>
-              <li><a href="#">sweden</a></li>
-              <li><a href="#">t-shirt</a></li>
-              <li><a href="#">vans</a></li>
-              <li><a href="#">washed-out</a></li>
-              <li><a href="#">white</a></li>
-              <li><a href="#">women</a></li>
+              <li><a href="#" lang="en">bag</a></li>
+              <li><a href="#" lang="en">classic</a></li>
+              <li><a href="#" lang="en">Converse</a></li>
+              <li><a href="#" lang="en">diesel</a></li>
+              <li><a href="#" lang="en">fit</a></li>
+              <li><a href="#" lang="en">green</a></li>
+              <li><a href="#" lang="en">jack and jones</a></li>
+              <li><a href="#" lang="en">jack and jones-2</a></li>
+              <li><a href="#" lang="en">jeans</a></li>
+              <li><a href="#" lang="en">Jumper</a></li>
+              <li><a href="#" lang="en">leather</a></li>
+              <li><a href="#" lang="en">lee</a></li>
+              <li><a href="#" lang="en">levis</a></li>
+              <li><a href="#" lang="en">man</a></li>
+              <li><a href="#" lang="en"><abbr title="New York Police Department">nypd</abbr></a></li>
+              <li><a href="#" lang="en">party</a></li>
+              <li><a href="#" lang="en">Pink</a></li>
+              <li><a href="#" lang="en">river island</a></li>
+              <li><a href="#" lang="en">rock chick</a></li>
+              <li><a href="#" lang="en">run</a></li>
+              <li><a href="#" lang="en">shoe</a></li>
+              <li><a href="#" lang="en">stars</a></li>
+              <li><a href="#" lang="en">sweden</a></li>
+              <li><a href="#" lang="en">t-shirt</a></li>
+              <li><a href="#" lang="en">vans</a></li>
+              <li><a href="#" lang="en">washed-out</a></li>
+              <li><a href="#" lang="en">white</a></li>
+              <li><a href="#" lang="en">women</a></li>
             </ul>
           </nav>
         </div>
 
         <div class="footer-newsletter">
-          <h2>SIGNUP FOR NEWSLETTER</h2>
-          <p>Signup to get news about Flatsome WooCommerce. We don't spam!</p>
-          <form action="/subscribe" method="post">
-            <input name="email" type="email" placeholder="Your Email (required)">
-            <button type="submit">SIGN UP</button>
+          <h2 id="newsletter-heading" lang="en">SIGNUP FOR NEWSLETTER</h2>
+          <p lang="en">Signup to get news about Flatsome WooCommerce. We don't spam!</p>
+          <form action="/subscribe" method="post" aria-labelledby="newsletter-heading">
+            <label for="newsletter-email" class="visually-hidden">Correo electrónico para suscribirse al boletín</label>
+            <input id="newsletter-email" name="email" type="email" placeholder="Your Email (required)" required aria-required="true" autocomplete="email">
+            <button type="submit" lang="en">SIGN UP</button>
           </form>
         </div>
       </div>
     </section>
 
     <!-- Bottom footer -->
-    <section class="footer-bottom">
+    <section class="footer-bottom" aria-label="Pie de página">
       <div>
-        <nav>
+        <nav aria-label="Navegación del pie de página">
           <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">OUR STORES</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#" lang="en">ABOUT</a></li>
+            <li><a href="#" lang="en">OUR STORES</a></li>
+            <li><a href="#" lang="en">BLOG</a></li>
+            <li><a href="#" lang="en">CONTACT</a></li>
+            <li><a href="#" lang="en"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
           </ul>
         </nav>
 
         <p>Copyright 2020 © UX Themes</p>
       </div>
 
-      <ul>
-        <li><a href="#"><img src="./imagenes/44.webp" alt="Visa"></a></li>
-        <li><a href="#"><img src="./imagenes/45.webp" alt="PayPal"></a></li>
-        <li><a href="#"><img src="./imagenes/46.webp" alt="Stripe"></a></li>
-        <li><a href="#"><img src="./imagenes/47.webp" alt="Mastercard"></a></li>
-        <li><a href="#"><img src="./imagenes/48.webp" alt="Discover"></a></li>
+      <ul aria-label="Métodos de pago aceptados">
+        <li><a href="#"><img src="./imagenes/44.webp" alt="" width="100" height="32" loading="lazy" decoding="async"><span class="visually-hidden">Pago con Visa</span></a></li>
+        <li><a href="#"><img src="./imagenes/45.webp" alt="" width="100" height="32" loading="lazy" decoding="async"><span class="visually-hidden">Pago con PayPal</span></a></li>
+        <li><a href="#"><img src="./imagenes/46.webp" alt="" width="100" height="32" loading="lazy" decoding="async"><span class="visually-hidden">Pago con Stripe</span></a></li>
+        <li><a href="#"><img src="./imagenes/47.webp" alt="" width="100" height="32" loading="lazy" decoding="async"><span class="visually-hidden">Pago con Mastercard</span></a></li>
+        <li><a href="#"><img src="./imagenes/48.webp" alt="" width="100" height="32" loading="lazy" decoding="async"><span class="visually-hidden">Pago con Discover</span></a></li>
       </ul>
     </section>
   </footer>
